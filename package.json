@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-nodejs",
+  "version": "1.0.0",
+  "description": "Ecommerce in node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felpn/ecommerce-nodejs.git"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felpn/ecommerce-nodejs/issues"
+  },
+  "homepage": "https://github.com/felpn/ecommerce-nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
