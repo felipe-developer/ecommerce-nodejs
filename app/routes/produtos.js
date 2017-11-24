@@ -4,7 +4,7 @@ module.exports = function(app){
 		var connection = mysql.createConnection({
 			host : 'localhost',
 			user : 'root',
-			password : '',
+			password : '1234',
 			database : 'ecommerce'
 		});
 
@@ -14,6 +14,6 @@ module.exports = function(app){
 		connection.end();
 
 		// Consulta
-		res.render('produtos/lista');
+		//res.render('produtos/lista');
 	});
 }
