@@ -1,1 +1,7 @@
-<h1>Ecommerce in node.js</h1>
+# E-commerce node.js
+
+```
+npm install
+
+nodemon app
+```
