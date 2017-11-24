@@ -9,11 +9,9 @@ module.exports = function(app){
 		});
 
 		connection.query('select * from livros', function(err, results){
-			res.send(results);
+			res.render('produtos/lista',{lista:results});
 		});
 		connection.end();
 
-		// Consulta
-		//res.render('produtos/lista');
 	});
 }
